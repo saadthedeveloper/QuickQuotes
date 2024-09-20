@@ -1,0 +1,79 @@
+/*General Styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Lato', 'sans-serif';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(1, 76, 123);
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+    
+}
+
+.header
+{
+    font-size: 1.4rem;
+    color: #000;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content
+{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.quote-person-container
+{
+    height: 160px;
+    border-bottom: 1px solid black;
+
+}
+
+.main-content .person{
+    font-size: 1.0rem;
+    text-align: right;
+    color:rgb(1, 76, 123);
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.button-area button
+{
+    background-color: rgb(1, 76, 123);
+    border: 0px;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.button-area button:active
+{
+    background-color: rgb(0, 76, 123);
+}
